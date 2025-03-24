@@ -17,9 +17,6 @@ feedback = []
 
 score = 0
 
-# def check_password_strength(password):
-#     score = 0
-    
 # Length Check
 if password:
     if len(password) >= 8:
@@ -60,9 +57,3 @@ if password:
 
 else:
     st.info("please enter your password to get started.")
-
-
-# # Get user input
-# password = input("Enter your password: ")
-# check_password_strength(password)
-
